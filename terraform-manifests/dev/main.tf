@@ -13,5 +13,5 @@ provider "aws" {
 module "infra_services" {
   source = "../modules/infra_services"
   cloud_env = "dev"
-  vpc_tag_name = "dev_vpc"
+  
 }
